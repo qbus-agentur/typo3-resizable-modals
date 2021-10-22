@@ -1,0 +1,27 @@
+{
+    "name": "qbus/typo3-resizable-modals",
+    "description": "Resizable and draggable TYPO3 backend modals",
+    "type": "typo3-cms-extension",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Benjamin Franzke",
+            "email": "benjaminfranzke@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "typo3/cms-core": "^10.4 || ^11.5",
+        "typo3/cms-backend": "^10.4 || ^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qbus\\ResizableModals\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "resizable_modals"
+        }
+    }
+}
